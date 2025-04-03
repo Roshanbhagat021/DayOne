@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+@font-face {
+    font-family: MYFont;
+    src: url("../avenirNext.otf");
+}
+
+@font-face {
+    font-family: MYFontBold;
+    src: url("../bold.otf");
+}
+
+*{
+    font-family: MYFont;
+    box-sizing: border-box;
+}
+
+h1{
+    font-family: MYFontBold;
+    font-weight: 900;
+}
