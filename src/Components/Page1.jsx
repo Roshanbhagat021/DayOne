@@ -19,6 +19,11 @@ export default function Page1() {
             <img className="w-[100%] max-w-[140px]" src={WebApp} alt="" />
         </div>
         <p className='text-[14px] my-8 '>Free to use. Better with <span className='text-[#1e75ae] hover:underline cursor-pointer'>Premium</span>.</p>
+        <div className='apple text-xl flex gap-2 flex-wrap items-center justify-center max-[780px]:text-base' style={{color:"rgba(51, 59, 64, 0.5)"}}>
+          <p>App of the Year</p>
+          <p>Apple Editors’ Choice</p>
+          <p>Apple Design Award</p>
+        </div>
     </main>
   )
 }

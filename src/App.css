@@ -19,3 +19,33 @@ h1{
     font-family: MYFontBold;
     font-weight: 900;
 }
+
+.apple p:nth-child(1)::before{
+    content: url(./assets/apple-logo.svg);
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 0.75rem;
+}
+
+.apple p:nth-child(2)::before{
+    content: url(./assets/apple-accolade.svg);
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 0.75rem;
+}
+
+.apple p:nth-child(2)::after{
+    content: url(./assets/apple-accolade.svg);
+    transform: scaleX(-1);
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 0.75rem;
+}
+
+.apple p:nth-child(3)::before{
+    content: url(./assets/apple-logo.svg);
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 0.75rem;
+}
+
