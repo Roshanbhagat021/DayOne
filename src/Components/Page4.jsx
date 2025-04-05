@@ -7,7 +7,7 @@ import WebApp from "../assets/web-app.svg"
 
 export default function Page4() {
   return (
-    <div className=" text-center bg-gradient-to-b from-[#f1f4f6] to-[rgba(241,244,246,0)] text-[#333b40] max-w-[95%] p-8 mx-auto mt-4">
+    <div className=" text-center bg-gradient-to-b from-[#f1f4f6] to-[rgba(241,244,246,0)] text-[#333b40] max-w-[95%] p-8 mx-auto mt-4 mb-20">
       <h1 className="text-4xl mb-8 ">
         Capture life’s moments, anytime, anywhere.
       </h1>
