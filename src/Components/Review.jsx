@@ -21,7 +21,7 @@ export default function Review({img,name,username,review}) {
         </div>
       </div>
       <div>
-        <p className="text-[15px] my-2">
+        <p className="text-[18px] text-[#333b40] my-2">
           {review}
         </p>
       </div>

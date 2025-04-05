@@ -45,30 +45,34 @@ export default function Header() {
           menuOpen ? "translate-y-0" : "-translate-y-full "
         }`}
       >
+        <img
+          src={logo}
+          alt="Logo"
+          className="absolute top-5 left-5 mr-4 sm:max-w-[180px] md:max-w-[220px] lg:max-w-[250px] max-[664px]:max-w-[150px] cursor-pointer"
+        />
         <button
           className="absolute top-5 right-5 text-2xl font-bold text-[#1e75ae] cursor-pointer"
           onClick={() => setMenuOpen(false)}
         >
           ✕
         </button>
-        
-        <div className="mx-16 my-18"> 
-        <ul className="items-center text-[rgb(51,59,64)] text-2xl gap-8  flex justify-center flex-col ">
-          <li className="hover:text-[#1e75ae] hover:underline underline-offset-8 decoration-[rgb(51,59,64)] cursor-pointer">
-            Features
-          </li>
-          <li className="hover:text-[#1e75ae] hover:underline underline-offset-8 decoration-[rgb(51,59,64)] cursor-pointer">
-            Premium
-          </li>
-          <li className="hover:text-[#1e75ae] hover:underline underline-offset-8 decoration-[rgb(51,59,64)] cursor-pointer">
-            What's New
-          </li>
-          <li className="hover:text-[#1e75ae] hover:underline underline-offset-8 decoration-[rgb(51,59,64)] cursor-pointer">
-            Paper Journals
-          </li>
-        </ul>
+
+        <div className="mx-16 my-18">
+          <ul className="items-center text-[rgb(51,59,64)] text-2xl gap-8  flex justify-center flex-col ">
+            <li className="hover:text-[#1e75ae] hover:underline underline-offset-8 decoration-[rgb(51,59,64)] cursor-pointer">
+              Features
+            </li>
+            <li className="hover:text-[#1e75ae] hover:underline underline-offset-8 decoration-[rgb(51,59,64)] cursor-pointer">
+              Premium
+            </li>
+            <li className="hover:text-[#1e75ae] hover:underline underline-offset-8 decoration-[rgb(51,59,64)] cursor-pointer">
+              What's New
+            </li>
+            <li className="hover:text-[#1e75ae] hover:underline underline-offset-8 decoration-[rgb(51,59,64)] cursor-pointer">
+              Paper Journals
+            </li>
+          </ul>
         </div>
-        
       </div>
     </>
   );
