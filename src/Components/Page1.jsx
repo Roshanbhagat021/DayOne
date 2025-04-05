@@ -4,6 +4,7 @@ import GooglePlay from "../assets/google-play.svg"
 import MacStore from "../assets/mac-app-store.svg"
 import MicroSoftStore from "../assets/microsoft-store.png"
 import WebApp from "../assets/web-app.svg"
+import LandingPage from "../assets/landingPage.png"
 
 
 export default function Page1() {
@@ -23,6 +24,9 @@ export default function Page1() {
           <p>App of the Year</p>
           <p>Apple Editors’ Choice</p>
           <p>Apple Design Award</p>
+        </div>
+        <div className='flex justify-center px-6 mt-6'>
+          <img src={LandingPage} className='max-[1000px]:w-[780px] ' alt="Landing page" />
         </div>
     </main>
   )
